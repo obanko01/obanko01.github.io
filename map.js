@@ -1,8 +1,26 @@
 //src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=TRUE";
-
+var map; var xhr;
 function initialize(){
-	var mapOptions = {
+	/*var mapOptions = {
 		zoom: 8
 	};
-		var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
-	}
+	map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);*/
+
+	xhr = new XMLHttpRequest();
+	//xhr.open("method", "url", asynchronous? true or false);
+	xhr.open("get", "http://mbta.herokuapp.com/mapper/rodeo.json", true);
+	//onreadystatechange has ot be set to a function when request is completed to handle the response
+	xhr.onreadystatechange = dataReady;
+	xhr.send(null); //Go! Execute!
+}
+
+function dataReady(){
+	if (xhr.readystate==4 && xhr.status = 200){
+console.log("DONE!")
+scheduleData = JSON.parse(xhr.responseText);
+console.log(schedule);
+	scheduleDom = document.getElementbyClass("map-Canvas");
+scheduleDom.innerHTMl = scheduleData["line"];
+//for the assigment can get away with 500 status code else do an "else statement" to catch this error
+
+}
