@@ -34,11 +34,11 @@ var marker = new google.maps.Marker({
 		if (xhr.readyState == 4 && xhr.status == 200) {
 			scheduleData = JSON.parse(xhr.responseText);
 			scheduleDom = document.getElementById("schedule");
-			scheduleDom.innerHTML = scheduleData["line"];
+			console.log(scheduleData["line"]);
 		}
 		else if (xhr.readyState == 4 && xhr.status == 500) {
 			scheduleDom = document.getElementById("schedule");
-			scheduleDom.innerHTML = '<p><img src="http://www.yiyinglu.com/failwhale/images/Homer_the_New_Fail_Whale_by_edwheeler.jpg" alt="fail" /></p>';
+			console.log("Nothing");
 			
 		}
 	}
