@@ -1,16 +1,15 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: To random notes about me, experiences and inspiration
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+My name is Kal. You'll find me operating in the Boston/Cambridge areas. I enjoy parolling in art studios, etc. Some of the other activities I enjoy are:
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+- Music, making my own beats cos I'm dope!!
+- Being loyal to my squad
 
-What else do you need?
 
-### my history
+### My Journey
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+It's a bit long but hey, why don't you catch me during one of my performances in the area. See here for a schedule of some of my up-coming arts. Also, check out some of works, [audio casts] (https://soundcloud.com/kuvie/k3-ke-mi) and [notes](http://obanko01.github.io/).
