@@ -1,24 +1,46 @@
-<!DOCTYPE html>
-<!--A short bio about myself-->
-<html>
+---
+layout: page
+title: My website
+subtitle: This is where I will tell my friends way too much about me
+---
 
-    <head>
-        <meta charset="UTF-8">
-        <title>
-            Welcome To My Page	
-        </title>
-                <!--this is a link to the css file -->
-        <link rel="stylesheet" type="text/css" href="resume.css" />
-   
-    </head>
+<div class="posts-list">
+  {% for post in paginator.posts %}
+  <article class="post-preview">
+    <a href="{{ post.url | prepend: site.baseurl }}">
+	  <h2 class="post-title">{{ post.title }}</h2>
+	
+	  {% if post.subtitle %}
+	  <h3 class="post-subtitle">
+	    {{ post.subtitle }}
+	  </h3>
+	  {% endif %}  
+    </a>
 
-	<body class = "back">
-		<div class = "align">
-			<img class="image" src="New.jpg" alt ="My_Handsome_Face" width="400" height="300"/>
-			<h1> Oluseye T. Bankole</h1>
-			<p class = "pbig"> <a href = "resume.html"> Resume </a>  </p>
-			<p class ="pbig"> <a href="bio.html"> Biography  </a> </p>
-		</div>
+    <p class="post-meta">
+      Posted on {{ post.date | date: "%B %-d, %Y" }}
+    </p>
+  
+    <div class="post-entry">
+      {{ post.content | truncatewords: 50 | strip_html | xml_escape}}
+	  <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a>
+    </div>
+  
+   </article>
+  {% endfor %}
+</div>
 
-	</body>
-</html>
+{% if paginator.total_pages > 1 %}
+<ul class="pager main-pager">
+  {% if paginator.previous_page %}
+  <li class="previous">
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+  </li>
+  {% endif %}
+  {% if paginator.next_page %}
+  <li class="next">
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+  </li>
+  {% endif %}
+</ul>
+{% endif %}
