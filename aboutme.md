@@ -1,6 +1,6 @@
 ---
 layout: page
-title: De Moi        (About me)
+title: About Me
 subtitle: To random notes about me, experiences and inspiration
 ---
 
