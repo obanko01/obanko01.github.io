@@ -2,17 +2,19 @@
 layout: page
 title: About Me
 subtitle: To random notes about me, mon experiences and words of inspiration
+bigimg: /img/prospect.JPG
 ---
 
-Engineer, Tech Lover and aspiring expressionist. You’ll find me biking the streets of Somerville, Cambridge and Boston during the summer, and hibernating/working it out from the holes of Prospect Hill in the Winter when it starts to get real.
+Engineer, Tech Lover and Afrobeat Dancer. You’ll find me biking the streets of BoCaSo environ during the summer and hibernating in the cliffs of Prospect Hill during the Winter. Fall and Spring are my improv times of the year.
 
-I also enjoy picking up new hobbies. Here is a couple of summer hit lists:
+I really enjoy picking up new hobbies ...
 
-- brushing up my piano skills (I’m not sure if brush up is the right word, the honest truth is I’ve always sucked at black and white keys) 
-- refining summer hip hop skills (used to Dance hip hop so many years ago!) 
-- follow me on Instagram and Twitter if you’re curious about the rest of the list.
+Here's some to-do-lists for the year
 
-### My Journey
+- (dust) piano skills 
+- (refine) hip hop skills (used to Dance hip hop so many years ago!) 
+- (boss) machine learning
+- (rule) data vis 
+- (master) Thai cuisine
 
-It's a bit long but hey, maybe one of these days I'll write something about it here. If you need to reach me, you'll find my contact information in the footer below.
-Also, check out some of works, [audio casts](https://soundcloud.com/kuvie/k3-ke-mi) and [notes](http://obanko01.github.io/).
+Follow me on [Instagram](https://www.instagram.com/taye_sizzle/) and [Twitter](https://twitter.com/taye_d_first) if you’re curious about the rest of the list.

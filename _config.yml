@@ -17,17 +17,17 @@ baseurl: ""
 title: obanko's journal
 
 # Short description of your site
-description: "Dosage of awesomeness, better than jammed bread and tea!"
+description: "Everyday for everyone!"
 
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
 navbar-links:
   De Moi: "aboutme"
-  Resources:
-    - Projects: ""
-    - Videos Posts: ""
-    - Archives Pages: ""
+  Extra:
+    - Projects: "leprojet"
+    # - Videos Posts: ""
+    # - Archives Pages: ""
     # - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
     # - Learn markdown: "http://www.markdowntutorial.com/"
     # - GitHub Pages: "https://pages.github.com/"
@@ -44,9 +44,9 @@ avatar: "/img/obanko-icon.png"
 author:
   name: banks
   email: "shayibanky@gmail.com"
-  facebook: seye  # eg. daattali
+  # facebook: seye  # eg. daattali
   github: obanko01    # eg. daattali
-  twitter: taye_taiwo   # eg. daattali
+  twitter: taye_d_first   # eg. daattali
   # linkedin: yourlink  # eg. "pub/dean-attali/8/946/143"
   # stackoverflow: yourlink  # eg. "3943160/daattali"
  
